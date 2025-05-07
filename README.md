@@ -8,7 +8,9 @@ We utilized the following API endpoints from the CoinGecko platform:
 
 OHLC Data Endpoint:
 https://api.coingecko.com/api/v3/coins/{coin_id}/ohlc
+
 Purpose: Retrieves Open, High, Low, Close (OHLC) data for selected cryptocurrencies.
+
 Parameters:
 - coin_id: The ID of the cryptocurrency (e.g. bitcoin).
 - vs_currency: The target currency (e.g. USD).
@@ -16,7 +18,9 @@ Parameters:
 
 Market Capitalization Endpoint:
 https://api.coingecko.com/api/v3/coins/markets 
+
 Purpose: Retrieves the top cryptocurrencies by market capitalization.
+
 Parameters:
 - vs_currency: The target currency.
 - order: Sort order by market cap (e.g., market cap descending).
@@ -25,7 +29,9 @@ Parameters:
 
 Market Chart Endpoint:
 https://api.coingecko.com/api/v3/coins/{coin_id}/market_chart
+
 Purpose: Provides historical market data (prices) for selected cryptocurrencies
+
 Parameters:
 - coin_id: The ID of the cryptocurrency.
 - vs_currency: The target currency.
