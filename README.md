@@ -11,13 +11,16 @@ Parameters:
 - coin_id: The ID of the cryptocurrency (e.g. bitcoin).
 - vs_currency: The target currency (e.g. USD).
 - days: The time period for the OHLC data.
-Market Chart Endpoint:
+
+Market Capitalization Endpoint:
 https://api.coingecko.com/api/v3/coins/markets 
 Purpose: Retrieves the top cryptocurrencies by market capitalization.
 Parameters:
 - vs_currency: The target currency.
 - order: Sort order by market cap (e.g., market cap descending).
 - per_page: The number of coins to retrieve.
+- page: Specifies which page to retrieve.
+
 Market Chart Endpoint:
 https://api.coingecko.com/api/v3/coins/{coin_id}/market_chart
 Purpose: Provides historical market data (prices) for selected cryptocurrencies
