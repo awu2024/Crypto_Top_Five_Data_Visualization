@@ -37,3 +37,27 @@ Parameters:
 - coin_id: The ID of the cryptocurrency.
 - vs_currency: The target currency.
 - days: The time range for historical data.
+
+## Acknowledgments
+This project was collaboratively developed by our group.
+
+We used OpenAI's ChatGPT to assist with specific coding tasks, including:
+
+### CoinGecko API Research
+- Identifying the appropriate API endpoints for OHLC, market data, and historical prices.
+- Understanding required parameters and structuring API responses into usable pandas DataFrames.
+
+### Tab 1: Candlestick Charts (OHLC)
+- Using OHLC data to build candlestick charts with Plotly Graph Objects in Streamlit.
+- Formatting date ranges and customizing the chart layout.
+
+### Tab 2: Bubble Chart (Market Cap vs Volume)
+- Choosing appropriate variables for x, y, size, and color.
+- Adjusting axis scaling (linear) and bubble size logic.
+- Mapping distinct colors to selected coins and formatting hover text.
+
+### Tab 3: Volume Distribution
+- Calculating the volume percentage share among top coins.
+- Customizing bar colors based on selected coins for visual emphasis.
+
+ChatGPT provided code suggestions and critiques, which we reviewed and integrated as a group. All final decisions and implementations reflect our understanding and collaborative effort.
