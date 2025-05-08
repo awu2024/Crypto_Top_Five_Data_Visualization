@@ -1,4 +1,4 @@
-# Crypto_Top_Five_Data_Visualization
+# Crypto Top Five Data Visualization
 This is a data visualization that uses the CoinGecko API
 For our data visualization final project, we chose a cryptocurrency dataset because cryptocurrency has become popular in the financial market and it allows many investment opportunities since cryptocurrency operate continuously 24/7, unlike traditional financial markets. Our project uses real-time cryptocurrency market data to build a dashboard that visualizes prices, market trends, and trading volume distribution. We focused on the top five cryptocurrencies sorted by market capitalization to help our users get a better understanding of the current market in cryptocurrency with clear and informative visualizations.
 The data we used in this project is obtained from the CoinGecko API, which provides up-to-date information on various crypto market data, including prices, market capitalization, and trading volume.
